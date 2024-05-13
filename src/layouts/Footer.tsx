@@ -19,7 +19,7 @@ const Footer = () => {
                             liên hệ với chúng tôi
                         </div>
                         <a
-                            href="https://zalo.me/g/tyghqq532"
+                            href="https://zalo.me/g/uyrwkw515"
                             target="_blank"
                             className="flex gap-2 items-center"
                         >
@@ -66,7 +66,7 @@ const Footer = () => {
                         <p className="flex gap-2 items-center">
                             <FaMapLocation />
                             <span>
-                                1A Vũ Phạm Hàm, Yên Hòa, Cầu Giấy, Hà Nội
+                                Long Capital - tầng 3 - D2 giảng võ
                             </span>
                         </p>
                     </div>
