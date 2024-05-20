@@ -265,7 +265,7 @@ const Guide = () => (
                                     </Disclosure.Button>
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <p className="text-white font-medium first-letter:uppercase">
-                                            <a href="https://docs.google.com/presentation/d/1VIeiejavwJeObVlhNqRRjjZ11uYJzssF/edit?usp=sharing&ouid=117684027990047482565&rtpof=true&sd=true"> ấn vào đây để download silide về</a>
+                                            <a href="https://docs.google.com/presentation/d/1VIeiejavwJeObVlhNqRRjjZ11uYJzssF/edit?usp=sharing&ouid=117684027990047482565&rtpof=true&sd=true"> ấn vào đây để download Slide về</a>
                                         </p>
                                       
                                     </Disclosure.Panel>
