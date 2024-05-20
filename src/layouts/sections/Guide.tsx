@@ -232,6 +232,18 @@ const Guide = () => (
                                          <p className="text-white font-medium first-letter:uppercase">
                                             Contract ETH mạng BSC : 0x2170Ed0880ac9A755fd29B2688956BD959F933F8
                                         </p>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Contract hBNB mạng BSC : 0x624729BaB8a55013E417ebb4803D6c3866e53934
+                                        </p>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Contract hSOL mạng BSC : 0x867cCBd23E8FDCb397108C9B42b9362Df3ec68A3
+                                        </p>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Contract hINJ mạng BSC : 0x35E4e3ab776f332faa2d7E0522aD5a09EB17F4a2
+                                        </p>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Contract hETH mạng BSC : 0xd35b8aa9e0349224ACA038ca906D3775d10e7898
+                                        </p>
                                     </Disclosure.Panel>
                                 </>
                             )}
