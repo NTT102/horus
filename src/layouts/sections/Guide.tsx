@@ -33,7 +33,7 @@ const Guide = () => (
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <iframe
                                             className="w-full aspect-video"
-                                            src="https://www.youtube.com/embed/Sri14TzZ0xU?si=wDkR6ltVDRRz4stu"
+                                            src="https://www.youtube.com/embed/jqP9BTAaspg?si=UC1M6KPheYUiAnDa"
                                             title="YouTube video player"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         ></iframe>
@@ -59,7 +59,7 @@ const Guide = () => (
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <iframe
                                             className="w-full aspect-video"
-                                            src="https://www.youtube.com/embed/NPbM-2nuaHw?si=AFYL0DJ5x65-HL0a"
+                                            src="https://www.youtube.com/embed/qQ4dtOugDoA?si=_Rn6vJwmh34QWFGP"
                                             title="YouTube video player"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         ></iframe>
@@ -112,7 +112,7 @@ const Guide = () => (
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <iframe
                                             className="w-full aspect-video"
-                                            src="https://www.youtube.com/embed/xn6q4AqKFJE?si=0wQyJ4XVACI3u2Px"
+                                            src="https://www.youtube.com/embed/KeXXR3SpxYU?si=Ou4nAg1c5w3CfzCF"
                                             title="YouTube video player"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         ></iframe>
