@@ -127,6 +127,32 @@ const Guide = () => (
                    
                   
                     <Tab.Panel className="grid gap-2">
+                         <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            Opp dự án HorusLayer | 13/06/2024
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                     <Disclosure.Panel className="text-sm text-gray-500">
+                                        <iframe
+                                            className="w-full aspect-video"
+                                            src="https://www.youtube.com/embed/_eDbTh_gk54?si=TToktwhCGfUMIvPY"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        ></iframe>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
                         <Disclosure>
                             {({ open }) => (
                                 <>
@@ -295,7 +321,7 @@ const Guide = () => (
                                     </Disclosure.Button>
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <p className="text-white font-medium first-letter:uppercase">
-                                            <a href="https://docs.google.com/presentation/d/1VIeiejavwJeObVlhNqRRjjZ11uYJzssF/edit?usp=sharing&ouid=117684027990047482565&rtpof=true&sd=true"> ấn vào đây để download Slide về</a>
+                                            <a href="https://docs.google.com/presentation/d/1N4xTtXLNjBXT-2yCzLm18pvT-4j9C89q/edit?usp=sharing&ouid=117684027990047482565&rtpof=true&sd=true"> ấn vào đây để download Slide về</a>
                                         </p>
                                       
                                     </Disclosure.Panel>
