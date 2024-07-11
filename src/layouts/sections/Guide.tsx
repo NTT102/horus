@@ -72,7 +72,7 @@ const Guide = () => (
                                 <>
                                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
                                         <span className="block text-base first-letter:uppercase font-semibold">
-                                            Hướng dẫn Restaking
+                                            Hướng dẫn Stake bằng HRX
                                         </span>
                                         <IoIosArrowDown
                                             className={`${
