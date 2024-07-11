@@ -72,6 +72,32 @@ const Guide = () => (
                                 <>
                                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
                                         <span className="block text-base first-letter:uppercase font-semibold">
+                                            Hướng dẫn Restaking
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <iframe
+                                            className="w-full aspect-video"
+                                            src="https://www.youtube.com/embed/oM2fXc-aito?si=AsuiP4kmsskWi_mZ"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        ></iframe>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
                                             Hướng dẫn Claim lợi nhuận từ Restaking
                                         </span>
                                         <IoIosArrowDown
@@ -93,7 +119,6 @@ const Guide = () => (
                                 </>
                             )}
                         </Disclosure>
-                       
                         <Disclosure>
                             {({ open }) => (
                                 <>
@@ -120,7 +145,110 @@ const Guide = () => (
                                 </>
                             )}
                         </Disclosure>
-                      
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            Hướng dẫn đăng ký tài khoản HorusLayer - Register an account Guide ( Tiếng Anh ) 
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <iframe
+                                            className="w-full aspect-video"
+                                            src="https://www.youtube.com/embed/hBAnZBxEhPg?si=OuVpi7CZMjt4MCip"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        ></iframe>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            Hướng dẫn Restaking - Restaking Guide ( Tiếng Anh ) 
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <iframe
+                                            className="w-full aspect-video"
+                                            src="https://www.youtube.com/embed/1Z6Xt6BVds4?si=hg-GrvTQ785c67KF"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        ></iframe>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                      <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            Hướng dẫn Claim lợi nhuận từ Restaking - Claim Profit Guide ( Tiếng Anh ) 
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <iframe
+                                            className="w-full aspect-video"
+                                            src="https://www.youtube.com/embed/0ICvZiHbVDk?si=_ICdZdJwox2d-cVd"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        ></iframe>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            Hướng dẫn Swap HRX sang USDT - Swap HRX Guide ( Tiếng Anh ) 
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <iframe
+                                            className="w-full aspect-video"
+                                            src="https://www.youtube.com/embed/fxZrL2Tw8kc?si=H6S5Lwj_GRwc-V0z"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        ></iframe>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
                        
                     </Tab.Panel>
                    
@@ -297,6 +425,54 @@ const Guide = () => (
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <p className="text-white font-medium first-letter:uppercase">
                                             <a href="https://docs.google.com/presentation/d/1N4xTtXLNjBXT-2yCzLm18pvT-4j9C89q/edit?usp=sharing&ouid=117684027990047482565&rtpof=true&sd=true"> ấn vào đây để download Slide về</a>
+                                        </p>
+                                      
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                         <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            3. Slide dự án Horus Layer ( tiếng anh )
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            <a href="https://drive.google.com/file/d/1Y3MY3k5_72C1mAJxITUxFBoivnX01lKU/view?usp=sharing"> ấn vào đây để download Slide về</a>
+                                        </p>
+                                      
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                          <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            4. Horus Affiliate Program ( tiếng anh )
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            <a href="https://drive.google.com/file/d/1hTodnnVojSvcVl7OcrlWF60dp9UWu7hP/view?usp=sharing"> ấn vào đây để download Slide về</a>
                                         </p>
                                       
                                     </Disclosure.Panel>
